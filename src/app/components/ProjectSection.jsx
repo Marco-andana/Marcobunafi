@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Game tutorial web app",
-    description: "Web app that built with React JS and Next JS. An app that give the user video based game tutorial.",
+    description: "Web app that built with React JS and Next JS. An app that give the user video based game tutorial. This web also have CI/CD automation",
     image: "/images/gamemaster.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Marco-andana/GameTutorial-WebApp",
