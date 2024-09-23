@@ -11,10 +11,9 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>JavaScript</li>
         <li>React</li>
-        <li>MySQL</li>
-        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>Python</li>
-        <li>Laravel</li>
       </ul>
     ),
   },

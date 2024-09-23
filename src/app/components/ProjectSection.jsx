@@ -7,15 +7,51 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/",
+    title: "Game tutorial web app",
+    description: "Web app that built with React JS and Next JS. An app that give the user video based game tutorial.",
+    image: "/images/gamemaster.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Marco-andana/GameTutorial-WebApp",
+    previewUrl: "https://game-tutorial-web-mmavqovvk-marco-andanas-projects.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Animated Personal Web",
+    description: "Website for personal purpose (Portfolio) that built using Typescript",
+    image: "/images/animated-personal.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Marco-andana/animated_personal_web",
+    previewUrl: "https://animated-personal-web.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "3d Personal Web",
+    description: "Website portfolio with 3d image that built using three JS",
+    image: "/images/3dpersonal.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Marco-andana/3d_personal_web",
+    previewUrl: "https://3d-personal-web.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Shoe shop website",
+    description: "My First ever website that i've build using html,css, and vanilla javascript.",
+    image: "/images/shoeshop.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Marco-andana/Shoe-Shop-Landing-Page",
+    previewUrl: "https://vercel.com/marco-andanas-projects",
+  },
+  {
+    id: 5,
+    title: "To-do web app",
+    description: "A To-do web application that built with Javascript. Can be used for put a list of todos.",
+    image: "/images/todoapp.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Marco-andana/Todo-app",
+    previewUrl: "https://marco-andana.github.io/Todo-app/",
   },
 ]; 
-  //Nanti ubah efek hover dari project menjadi seperti video web astronot dari youtube webdecoded
+
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
